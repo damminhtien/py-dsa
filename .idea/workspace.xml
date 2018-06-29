@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4157f77-cc1e-457b-8b95-0598832fb9af" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/K-mean-cluster.py" beforeDir="false" afterPath="$PROJECT_DIR$/K-mean-cluster.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linear-regression-scikitlearn.py" beforeDir="false" afterPath="$PROJECT_DIR$/linear-regression-scikitlearn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linear-regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/linear-regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradientdescent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,11 +26,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="linear-regression.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="linear-regression.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linear-regression.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
               <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+              <folding>
+                <element signature="e#40#105#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gradientdescent.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gradientdescent.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
               <folding>
                 <element signature="e#40#105#0" expanded="true" />
               </folding>
@@ -69,6 +80,7 @@
         <option value="$PROJECT_DIR$/K-mean-cluster.py" />
         <option value="$PROJECT_DIR$/linear-regression.py" />
         <option value="$PROJECT_DIR$/linear-regression-scikitlearn.py" />
+        <option value="$PROJECT_DIR$/gradientdescent.py" />
       </list>
     </option>
   </component>
@@ -125,7 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.linear-regression">
+  <component name="RunManager" selected="Python.gradientdescent">
     <configuration name="K-mean-cluster" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learn-ml" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,6 +171,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="gradientdescent" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="learn-ml" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gradientdescent.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,9 +237,11 @@
       <item itemvalue="Python.K-mean-cluster" />
       <item itemvalue="Python.linear-regression" />
       <item itemvalue="Python.linear-regression-scikitlearn" />
+      <item itemvalue="Python.gradientdescent" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.gradientdescent" />
         <item itemvalue="Python.linear-regression" />
         <item itemvalue="Python.linear-regression-scikitlearn" />
         <item itemvalue="Python.K-mean-cluster" />
@@ -229,7 +262,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="7" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -239,10 +273,10 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" weight="0.32923076" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959569" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959569" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="SciView" sideWeight="0.49847096" visible="true" weight="0.32991913" />
+      <window_info active="true" anchor="right" id="SciView" sideWeight="0.49847096" visible="true" weight="0.32991913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
@@ -286,6 +320,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding>
+            <element signature="e#40#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradientdescent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
           <folding>
             <element signature="e#40#105#0" expanded="true" />
           </folding>
